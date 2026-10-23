@@ -1,0 +1,59 @@
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+/config.local.*
+
+# User manuscripts, reference texts, runtime state and exports
+/data/
+/storage/
+/uploads/
+/exports/
+/backups/
+/style-sources/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.log
+
+# Downloaded models and weights
+/models/
+/model-cache/
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.coverage
+htmlcov/
+
+# Node and build output
+node_modules/
+.next/
+dist/
+build/
+coverage/
+
+# Machine-specific and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.tmp
+*.bak
